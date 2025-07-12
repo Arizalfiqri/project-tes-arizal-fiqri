@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Custom font weights for header navigation */
+.nav-link {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/* Section padding to account for fixed header */
+section {
+  scroll-margin-top: 4rem;
+}
